@@ -1,0 +1,209 @@
+/*global setting */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* global styling */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5; /*1em = 2inches */
+    background: url('../images/hero_image.jpg') no-repeat center center/
+    cover;
+    height: 100vh;
+}
+
+a{
+    color: #FAF8F1;
+    text-decoration: none;
+}
+h1,
+h2,
+h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px;
+    padding: 100px;
+}
+#navbar{
+    background-color: hsla(258, 100%, 2%, 0.747);
+    overflow: auto;
+    color: #FAF8F1;
+}
+#navbar a{
+    color: #FAF8F1;
+}
+#navbar uL{
+    list-style: none;
+    float: right;
+    padding:  10px;
+    margin-right: 20px;
+}
+#navbar ul li{
+    float: left;
+
+}
+#navbar ul li a{
+    display: block;
+    padding: 10px 20px;
+    margin-top: 10px;
+  
+}
+#navbar h1{
+    float: left;
+   padding: 20px;
+}
+#navbar ul li a:hover{
+    background:#724dd15f;
+    color: #ffffff;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;;
+    
+
+}
+#navbar ul li a.active{
+    background: rgba(red, green, blue, alpha);
+    
+}
+.continaer{
+   margin: auto;
+   max-width: 1100px;
+   overflow: auto;
+   padding: 10px 20px;
+}
+#hero .hero-content{
+    color: #FAF8F1;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+ #hero .hero-content h1{
+     font-size: 100px;
+     line-height: 1.2em;
+}
+.primary-text{
+color: #f5c20a;
+padding: 20px;
+}
+#hero .hero-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+.text-lead{
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #FAF8F1;
+    background-color: #251749;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.3s ease .1s;}
+    .btn:hover{
+        display: inline-block;
+        font-size: 18px;
+        color: #FAF8F1;
+        background-color: #734cd6;
+        padding: 13px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+        transition: all 0.1s ease .1s;
+}
+#about{
+    height: 100px;
+   padding: 20px 20px;
+}
+#about p{
+    line-height: 2em;
+    font-size: 15px;
+    padding: 20px 20px 20px 20px;
+}
+#aboutoo h2{
+    color:#251749;
+}
+#about i{
+    margin-bottom: 10px;
+}
+#about .Content-1,
+#about .Content-2,
+#about .Content-3{
+    float: left;
+    width: 33%;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #ffffff;
+    background: #25174965;
+}
+#about a.c-btn{
+    color:#251749;
+    background-color: #FAF8F1;
+    border-radius: 50px;
+    line-height: 10px;
+    padding: 10px 20px}
+#about a.c-btn:hover{
+    color:#ffffff;
+    background-color: #7044df;
+    border-radius: 50px;
+    transition: all 0.3s ease .1s;
+    padding-top: 10px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+#testimonials {
+  background: url("/images/laptop-2557571.jpg") no-repeat center center;
+  height: 700px;
+  overflow: hidden;
+  margin-top: 350px;
+}
+#testimonials .testimonial img{
+    height: 100px;  
+    width: 90px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.bg-primary{
+    background: white;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+    padding: 20px;
+    margin-left: 50px;
+}
+#testimonials .testimonial{
+    padding: 50px;
+    width: 50%;
+    border-radius: 1.2em;
+    
+}
+#testimonials .testimonial p{
+    padding: 50px;
+    margin-left: 100px;
+    text-align: justify;
+    font-style: italic;
+}
+#testimonials .lead-head{
+    color:black;
+    padding: 50px;
+    margin-left: 180px;
+}
+footer{
+    background: #251749;
+    height: 50px;
+    overflow:hidden;
+    color: #FAF8F1;
+    padding:20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
